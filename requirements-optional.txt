@@ -1,0 +1,36 @@
+# Optional database drivers
+psycopg2-binary>=2.9.6  # PostgreSQL
+pymysql>=1.0.3  # MySQL
+mysqlclient>=2.1.1  # MySQL (C-based, faster)
+
+# Microsoft SQL Server
+pyodbc>=4.0.39  # SQL Server via ODBC
+pymssql>=2.2.7  # SQL Server via TDS
+
+# Oracle
+cx_Oracle>=8.3.0  # Oracle
+
+# MongoDB
+pymongo>=4.4.0  # MongoDB
+
+# Visualization and data analysis
+matplotlib>=3.7.2  # Plotting
+seaborn>=0.12.2  # Statistical data visualization
+plotly>=5.15.0  # Interactive plots
+ipython>=8.14.0  # Enhanced interactive console
+
+# Network tools
+paramiko>=3.2.0  # SSH implementation
+netaddr>=0.8.0  # Network address manipulation
+requests>=2.31.0  # HTTP requests
+aiohttp>=3.8.5  # Async HTTP
+
+# Performance optimization
+numba>=0.57.1  # JIT compilation for numerical functions
+cython>=3.0.0  # C-extensions for Python
+
+# Web framework extensions
+flask-restx>=1.1.0  # REST API framework for Flask
+flask-sqlalchemy>=3.0.5  # SQLAlchemy support for Flask
+flask-login>=0.6.2  # User session management
+flask-wtf>=1.1.1  # Form handling 

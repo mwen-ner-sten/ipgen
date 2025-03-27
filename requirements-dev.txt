@@ -1,0 +1,30 @@
+# Include all base requirements
+-r requirements.txt
+
+# Development tooling
+black>=23.0.0
+pylint>=2.17.0
+mypy>=1.0.0
+flake8>=6.0.0
+isort>=5.12.0
+pre-commit>=3.0.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+pytest-xdist>=3.2.0
+tox>=4.0.0
+
+# Documentation
+sphinx>=7.0.0
+sphinx-rtd-theme>=2.0.0
+
+# Packaging and distribution
+twine>=4.0.0
+build>=1.0.0
+wheel>=0.40.0
+
+# Type stubs
+types-pyyaml>=6.0.0
+types-requests>=2.30.0 

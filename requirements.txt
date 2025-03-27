@@ -1,6 +1,39 @@
+# Core dependencies
 ipaddress>=1.0.23
 pandas>=2.0.0
 openpyxl>=3.1.0
 pyyaml>=6.0.1
 python-dotenv>=1.0.0
-tkinter 
+
+# Web interface
+flask>=2.0.0
+werkzeug>=2.0.0
+jinja2>=3.0.0
+itsdangerous>=2.0.0
+
+# Database integration
+sqlalchemy>=2.0.0
+
+# MAC address lookup
+mac-vendor-lookup>=0.1.11
+
+# GUI
+# Note: tkinter is typically bundled with Python installation
+# If you need additional GUI libraries, add them here
+
+# Development & testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+pylint>=2.17.0
+mypy>=1.0.0
+flake8>=6.0.0
+
+# Executable building
+pyinstaller>=5.0.0
+
+# Optional dependencies
+# Uncomment based on your needs
+# psycopg2-binary>=2.9.0  # For PostgreSQL support
+# pymysql>=1.0.0  # For MySQL support
+# matplotlib>=3.5.0  # For plotting/charting features 
