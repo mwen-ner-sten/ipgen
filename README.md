@@ -116,7 +116,3 @@ ip_addresses:
 ranges:
   - ["10.0.0.1", "10.0.0.10"]
 ```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
