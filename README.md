@@ -1,6 +1,6 @@
 # IPGen
 
-A flexible IP address generator supporting multiple input and output formats. This package is designed for network scanning and device discovery tasks, allowing you to generate IP addresses from various sources and output them in different formats.
+A flexible IP address generator supporting multiple input and output formats. This package is designed for use in other tools such as network scanning and device discovery tasks, allowing you to generate IP addresses from various sources and output them in different formats.
 
 ## Features
 
